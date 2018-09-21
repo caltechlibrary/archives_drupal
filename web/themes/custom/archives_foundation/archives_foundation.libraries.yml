@@ -1,0 +1,7 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/archives_foundation.css: {}
+  js:
+    js/archives_foundation.js: {}

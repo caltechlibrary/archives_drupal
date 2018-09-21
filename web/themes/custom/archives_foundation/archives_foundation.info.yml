@@ -1,0 +1,40 @@
+name: Caltech Archives Foundation
+description: "Custom sub-theme based on <a href=\"https://foundation.zurb.com/sites/docs/\">Foundation 6</a>."
+core: 8.x
+type: theme
+base theme: zurb_foundation
+
+# Image appears on admin/appearance
+# screenshot: images/screenshot.jpg
+
+# Uncomment these lines if you need to add custom CSS or JS
+libraries:
+ - archives_foundation/global
+
+# Regions are output in the page.html.twig
+regions:
+  meta_header: 'Meta Header'
+  header: Header
+  help: Help
+  page_top: 'Page Top'
+  page_bottom: 'Page Bottom'
+  highlighted: Highlighted
+  content: Content
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  footer_first: 'Footer First Column'
+  footer_middle: 'Footer Middle Column'
+  footer_last: 'Footer Last Column'
+  left_off_canvas: 'Left Off Canvas'
+  right_off_canvas: 'Right Off Canvas'
+regions_hidden:
+  page_top: 'Page Top'
+  page_bottom: 'Page Bottom'
+
+features:
+  - logo
+  - name
+  - slogan
+  - favicon
+  - comment_user_picture
+  - node_user_picture
