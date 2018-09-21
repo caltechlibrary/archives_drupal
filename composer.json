@@ -25,6 +25,7 @@
         "drupal/devel": "1.2",
         "drupal/google_analytics": "2.3",
         "drupal/module_filter": "3.1",
+        "drupal/stage_file_proxy": "^1.0@alpha",
         "drupal/twitter_block": "3.x-dev",
         "drupal/zurb_foundation": "6.x-dev",
         "drush/drush": "^9.0.0",
