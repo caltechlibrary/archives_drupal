@@ -5004,19 +5004,19 @@ body.toolbar-fixed .sticky.is-stuck.is-at-top {
     width: 100%;
     text-align: left; }
 
-#block-archives-foundation-branding img {
+.block-archives-foundation-branding img {
   max-width: 25rem;
   padding: 20px 0; }
   @media print, screen and (min-width: 40em) {
-    #block-archives-foundation-branding img {
+    .block-archives-foundation-branding img {
       padding: 30px 0; } }
 
 .region-meta-header {
   background-color: #8a8a8a;
   color: #fefefe;
   font-size: 0.6875rem;
-  text-transform: uppercase;
-  height: 20px; }
+  height: 20px;
+  text-transform: uppercase; }
   @media print, screen and (min-width: 40em) {
     .region-meta-header {
       height: 30px; } }
