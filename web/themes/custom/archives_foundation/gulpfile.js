@@ -31,7 +31,7 @@ options.theme = {
 // Define the node-scss configuration.
 options.scss = {
   importer: importOnce,
-  outputStyle: 'compressed',
+  outputStyle: 'nested', // node-sass default
   lintIgnore: ['scss/_settings.scss', 'scss/base/_drupal.scss'],
   includePaths: [
     options.rootPath.project + 'node_modules/foundation-sites/scss',
