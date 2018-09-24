@@ -1,0 +1,9 @@
+#block-archives-foundation-branding img {
+  max-width: ($global-width / 4);
+  // set different padding values based on the $grid-column-gutter variable map
+  @each $breakpoint, $value in $grid-column-gutter {
+    @include breakpoint(#{$breakpoint}) {
+      padding: #{$value} 0;
+    }
+  }
+}

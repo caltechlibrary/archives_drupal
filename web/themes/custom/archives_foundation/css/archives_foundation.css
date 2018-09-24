@@ -5004,4 +5004,11 @@ body.toolbar-fixed .sticky.is-stuck.is-at-top {
     width: 100%;
     text-align: left; }
 
+#block-archives-foundation-branding img {
+  max-width: 25rem;
+  padding: 20px 0; }
+  @media print, screen and (min-width: 40em) {
+    #block-archives-foundation-branding img {
+      padding: 30px 0; } }
+
 /*# sourceMappingURL=archives_foundation.css.map */
