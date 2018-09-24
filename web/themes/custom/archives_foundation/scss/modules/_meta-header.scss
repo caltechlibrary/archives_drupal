@@ -1,0 +1,12 @@
+.region-meta-header {
+  background-color: $dark-gray;
+  color: $white;
+  font-size: rem-calc(11);
+  // set different height values based on the $grid-column-gutter variable map
+  @each $breakpoint, $value in $grid-column-gutter {
+    @include breakpoint(#{$breakpoint}) {
+      height: #{$value};
+    }
+  }
+  text-transform: uppercase;
+}
