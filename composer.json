@@ -22,6 +22,7 @@
         "drupal/admin_toolbar": "1.24",
         "drupal/console": "^1.0.2",
         "drupal/core": "8.6.1",
+        "drupal/css_editor": "1.2",
         "drupal/devel": "1.2",
         "drupal/google_analytics": "2.3",
         "drupal/module_filter": "3.1",
