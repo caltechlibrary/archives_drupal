@@ -5004,6 +5004,36 @@ body.toolbar-fixed .sticky.is-stuck.is-at-top {
     width: 100%;
     text-align: left; }
 
+@font-face {
+  font-family: 'KievitSlabMedium';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/KievitSlabWebPro-Medium.woff2") format("woff2"), url("../fonts/KievitSlabWebPro-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Vaud';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/VaudBook-webfont.woff2") format("woff2"), url("../fonts/VaudBook-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Vaud';
+  font-style: italic;
+  font-weight: normal;
+  src: url("../fonts/VaudBookIt-webfont.woff2") format("woff2"), url("../fonts/VaudBookIt-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Vaud';
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/VaudExtraBold-webfont.woff2") format("woff2"), url("../fonts/VaudExtraBold-webfont.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Vaud';
+  font-style: italic;
+  font-weight: bold;
+  src: url("../fonts/VaudExtraBoldIt-webfont.woff2") format("woff2"), url("../fonts/VaudExtraBoldIt-webfont.woff") format("woff"); }
+
 .block-archives-foundation-branding img {
   max-width: 25rem;
   padding: 20px 0; }
