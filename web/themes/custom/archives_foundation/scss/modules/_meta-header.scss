@@ -1,7 +1,11 @@
-.region-meta-header {
+.meta-header-wrapper {
+  // set same font-size as caltech.edu
+  $meta-header-font-size: 11;
+
   background-color: $dark-gray;
   color: $white;
-  font-size: rem-calc(11);
+  font-size: rem-calc($meta-header-font-size);
+  font-weight: bold;
   // set different height values based on the $grid-column-gutter variable map
   @each $breakpoint, $value in $grid-column-gutter {
     @include breakpoint(#{$breakpoint}) {
@@ -9,4 +13,24 @@
     }
   }
   text-transform: uppercase;
+
+  a {
+    color: $white;
+    // set different padding values based on the $grid-column-gutter variable map
+    @each $breakpoint, $value in $grid-column-gutter {
+      @include breakpoint($breakpoint) {
+        // divide by 1px to strip 'px' unit string from value
+        padding: rem-calc((($value / 1px) - $meta-header-font-size) / 2);
+      }
+    }
+
+    &:focus,
+    &:hover {
+      color: inherit;
+    }
+  }
+
+  .block-header {
+    float: right;
+  }
 }

@@ -5011,14 +5011,25 @@ body.toolbar-fixed .sticky.is-stuck.is-at-top {
     .block-archives-foundation-branding img {
       padding: 30px 0; } }
 
-.region-meta-header {
+.meta-header-wrapper {
   background-color: #8a8a8a;
   color: #fefefe;
   font-size: 0.6875rem;
+  font-weight: bold;
   height: 20px;
   text-transform: uppercase; }
   @media print, screen and (min-width: 40em) {
-    .region-meta-header {
+    .meta-header-wrapper {
       height: 30px; } }
+  .meta-header-wrapper a {
+    color: #fefefe;
+    padding: 0.28125rem; }
+    @media print, screen and (min-width: 40em) {
+      .meta-header-wrapper a {
+        padding: 0.59375rem; } }
+    .meta-header-wrapper a:focus, .meta-header-wrapper a:hover {
+      color: inherit; }
+  .meta-header-wrapper .block-header {
+    float: right; }
 
 /*# sourceMappingURL=archives_foundation.css.map */
