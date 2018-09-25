@@ -4170,7 +4170,7 @@ a.thumbnail {
     box-shadow: none; }
 
 .title-bar {
-  padding: 0.5rem;
+  padding: 0.25rem 0 0.75rem 0.5rem;
   background: transparent;
   color: #8a8a8a;
   display: -ms-flexbox;
