@@ -1,0 +1,29 @@
+// .drilldown class affects the mobile/vertical menu
+.drilldown {
+  .is-active {
+    > a {
+      background-color: $light-gray;
+    }
+  }
+
+  a {
+    color: $white;
+  }
+}
+
+// .dropdown class affects the horizontal menu
+.dropdown {
+  border-bottom: 1px solid get-color(caltech);
+
+  a {
+    color: $dark-gray;
+  }
+
+  li {
+    &:first-child {
+      a {
+        padding-left: .25rem;
+      }
+    }
+  }
+}
