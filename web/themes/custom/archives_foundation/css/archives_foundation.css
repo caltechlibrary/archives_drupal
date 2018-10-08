@@ -2253,10 +2253,10 @@ input[type="range"] {
   width: 100%; }
 
 .accordion-menu a {
-  padding: 0.5rem 0.75rem; }
+  padding: 0.7rem 1rem; }
 
 .accordion-menu .is-accordion-submenu a {
-  padding: 0.5rem 0.75rem; }
+  padding: 0.7rem 1rem; }
 
 .accordion-menu .nested.is-accordion-submenu {
   margin-right: 0;
@@ -2609,7 +2609,7 @@ input[type="range"] {
     line-height: 1;
     text-decoration: none;
     display: block;
-    padding: 0.5rem 0.75rem; }
+    padding: 0.7rem 1rem; }
   .menu input,
   .menu select,
   .menu a,
@@ -2750,7 +2750,7 @@ input[type="range"] {
       -ms-flex-pack: start;
           justify-content: flex-start; }
   .menu .menu-text {
-    padding: 0.5rem 0.75rem;
+    padding: 0.7rem 1rem;
     font-weight: bold;
     line-height: 1;
     color: inherit; }
@@ -4353,7 +4353,7 @@ a.thumbnail {
       flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: transparent; }
+    background-color: #fefefe; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
@@ -5124,7 +5124,7 @@ body.toolbar-fixed .sticky.is-stuck.is-at-top {
   font-family: KievitSlabMedium, Georgia, serif; }
   .dropdown a {
     color: #8a8a8a; }
-  .dropdown li:first-child a {
+  .dropdown > li:first-child a {
     padding-left: .25rem; }
 
 /*# sourceMappingURL=archives_foundation.css.map */

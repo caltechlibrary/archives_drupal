@@ -20,7 +20,7 @@
     color: $dark-gray;
   }
 
-  li {
+  > li {
     &:first-child {
       a {
         padding-left: .25rem;
