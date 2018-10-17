@@ -21,7 +21,7 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/admin_toolbar": "1.24",
         "drupal/console": "^1.0.2",
-        "drupal/core": "8.6.1",
+        "drupal/core": "8.6.2",
         "drupal/css_editor": "1.2",
         "drupal/devel": "1.2",
         "drupal/google_analytics": "2.3",
